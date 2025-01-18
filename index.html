@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<header id="header">
+  <h1>HTML: HyperText Markup Language</h1>
+</header>
+
+<main id="main-doc">
+  <nav id="navbar">
+    <header class="navbar">HTML Documentation</header>
+    <ul>
+      <li><a href="#introduction" class="nav-link">Introduction</a></li>
+      <li><a href="#key_resources" class="nav-link">Key resources</a></li>
+      <li><a href="#beginner's_tutorials" class="nav-link">Beginner's tutorials</a></li>
+      <li><a href="#advanced_topics" class="nav-link">Advanced topics</a></li>
+      <li><a href="#reference" class="nav-link">Reference</a></li>
+    </ul>
+  </nav>
+  <section id="introduction" class="main-section">
+    <header class="section">Introduction</header>
+    <p class="intro-info">HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the
+      meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's
+      appearance/presentation (<a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a>) or
+      functionality/behavior (<a target="_blank"
+        href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a>).</p>
+    <p class="intro-info">HTML uses "markup" to annotate text, images, and other content for display in a Web browser.
+      HTML markup includes special "elements" such as <code>head</code>, <code>title</code>, <code>body</code>,
+      <code>header</code>, <code>footer</code>, <code>article</code>, <code>section</code>, <code>p</code>,
+      <code>div</code>, <code>span</code>, <code>img</code>, <code>ul</code>, <code>ol</code>, <code>li</code> and many
+      others.
+    </p>
+  </section>
+  <section id="key_resources" class="main-section">
+    <header class="section">Key resources</header>
+    <p class="key-info">If you're new to web development, be sure to read MDN's <a target="_blank"
+        href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">HTML Basics</a>
+      article to learn what HTML is and how to use it.</p>
+    <p class="key-info">For articles about how to use HTML, as well as tutorials and complete examples, check out MDN's
+      <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Learn/HTML">HTML Learning Area</a>.
+    </p>
+    <p class="key-info">In MDN's extensive <a target="_blank"
+        href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference">HTML reference</a> section, you'll find the
+      details about every element and attribute in HTML.</p>
+  </section>
+  <section id="beginner's_tutorials" class="main-section">
+    <header class="section">Beginner's tutorials</header>
+    <p class="beginner-info">MDN has several <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML">beginner
+        tutorials</a> that you can use to get started learning HTML. I'm going
+      to highlight the first two.</p>
+    <li class="link"><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML">Introduction to HTML</a></li>
+    <p class="beginner-info">This module sets the stage, getting you used to important concepts and syntax such as
+      looking at applying HTML to text, how to create hyperlinks, and how to use HTML to structure a web page.</p>
+    <li class="link"><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding">Multimedia and
+        embedding</a></li>
+    <p class="beginner-info">This module explores how to use HTML to include multimedia in your web pages, including the
+      different ways that images can be included, and how to embed video, audio, and even entire other webpages.</p>
+  </section>
+  <section id="advanced_topics" class="main-section">
+    <header class="section">Advanced topics</header>
+    <p class="advanced-info">MDN's advanced topics, takes a deep dive into the language.</p>
+    <li class="link"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_enabled_image">CORS enabled image</a></li>
+    <p class="advanced-info">The <code>crossorigin</code> attribute, in combination with an appropriate CORS header,
+      allows images defined by the <code>img</code> element to be loaded from foreign origins and used in a
+      <code>canvas</code> element as if they were being loaded from the current origin.
+    </p>
+    <li class="link"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/crossorigin">CORS settings attributes</a>
+    </li>
+    <p class="advanced-info">Some HTML elements that provide support for CORS, such as <code>img</code> or
+      <code>video</code>, have a <code>crossorigin</code> attribute (<code>crossOrigin</code> property), which lets you
+      configure the CORS requests for the element's fetched data.
+    </p>
+    <li class="link"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel/preload">Preloading content with
+        rel="preload"</a></li>
+    <p class="advanced-info">The <code>preload</code> value of the <code>link</code> element's <code>rel</code>
+      attribute allows you to write declarative fetch requests in your HTML <code>head</code>, specifying resources that
+      your pages will need very soon after loading, which you therefore want to start preloading early in the lifecycle
+      of a page load, before the browser's main rendering machinery kicks in. This ensures that they are made available
+      earlier and are less likely to block the page's first render, leading to performance improvements. This article
+      provides a basic guide to how <code>preload</code> works.</p>
+  </section>
+  <section id="reference" class="main-section">
+    <header class="section">Reference</header>
+    <p class="reference-info"></p>
+    <p class="reference-info">All the information on this page is taken from <a target="_blank"
+        href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN</p>
+  </section>
+</main>
+
+</html>
